@@ -34,4 +34,4 @@ where the returned list contains the default style sheets and any custom ones ad
 
 
 
-Another option is to clone [my GitHub repository](https://github.com/TobyBi/stylelib) containing the my custom style sheets.
+Another option is to clone [my GitHub repository](https://github.com/TobyBi/stylelib) containing my custom style sheets into the configuration directory.

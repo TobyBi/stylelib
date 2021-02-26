@@ -1,0 +1,32 @@
+## Matplotlib style sheet for use with Jupyter notebooks.
+## Doesn't use LaTeX for math renderings cause it's slow
+
+#pgf.texsystem:          pdflatex
+
+font.size:              16
+font.family:            serif
+
+#text.usetex:            True
+mathtext.fontset:       dejavuserif
+
+axes.grid:			    True
+axes.titlesize:         16
+axes.labelsize:         16
+axes.xmargin:           0
+axes.ymargin:           0
+
+xtick.top:              True
+xtick.labelsize:        16
+xtick.direction:        in
+xtick.major.pad:        10
+ytick.right:            True
+ytick.labelsize:        16
+ytick.direction:        in
+ytick.major.pad:        6
+
+legend.fontsize:        13
+
+figure.figsize:         12, 8
+figure.autolayout:      False
+
+savefig.bbox:           tight

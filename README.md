@@ -1,9 +1,12 @@
 # Matplotlib style sheets
 
-2021/02/26 and tested on Windows 10, Python 3.8.5 and matplotlib 3.3.4.
+## Requirements and Disclaimer
+Tested on 2021/02/26 and Windows 10
 
+- At least Python 3.8.5
+- At least matplotlib 3.3.4
 
-
+## Installation
 To create [custom matplotlib stylesheets](https://matplotlib.org/stable/tutorials/introductory/customizing.html) that are available across the system, they must be placed inside the configuration directory.
 
 
@@ -16,11 +19,7 @@ matplotlib's configuration directory is found using
 'C:\\Users\\<PROFILENAME>\\.matplotlib'
 ```
 
-
-
 Within `C:\\Users\\<PROFILENAME>\\.matplotlib` create `stylelib` directory and place the `.mplstyle` file in there.
-
-
 
 To check the available style sheets run the following:
 
@@ -33,5 +32,12 @@ To check the available style sheets run the following:
 where the returned list contains the default style sheets and any custom ones added to the configuration directory.
 
 
-
 Another option is to clone [my GitHub repository](https://github.com/TobyBi/stylelib) containing my custom style sheets into the configuration directory.
+
+
+## Usage
+
+```python
+>>> import matplotlib.pyplot as plt
+>>> plt.style.use("ggplot")
+```

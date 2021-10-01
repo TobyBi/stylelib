@@ -6,8 +6,10 @@
 font.size:              16
 font.family:            serif
 
-#text.usetex:            True
+#text.usetex:           True
 mathtext.fontset:       dejavuserif
+
+figure.facecolor:       white
 
 axes.grid:			    True
 axes.titlesize:         16

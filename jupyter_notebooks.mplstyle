@@ -29,6 +29,6 @@ ytick.major.pad:        6
 legend.fontsize:        13
 
 figure.figsize:         12, 8
-figure.autolayout:      False
+figure.autolayout:      True
 
 savefig.bbox:           tight

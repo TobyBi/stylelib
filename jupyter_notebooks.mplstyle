@@ -14,8 +14,8 @@ figure.facecolor:       white
 axes.grid:			    True
 axes.titlesize:         16
 axes.labelsize:         16
-axes.xmargin:           0
-axes.ymargin:           0
+axes.xmargin:           0               # Only want to see the set range in x-axis
+axes.ymargin:           0.05
 
 xtick.top:              True
 xtick.labelsize:        16
